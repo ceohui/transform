@@ -18,9 +18,9 @@ public class ConvertEngineer {
    * @throws Exception exception
    */
   public void convert(AbstractFactory abstractFactory) throws Exception {
-    abstractFactory.convert2Html(fileName, outPutFile);
-    abstractFactory.convert2Text(fileName, outPutFile);
+    //abstractFactory.convert2Html(fileName, outPutFile);
+    //abstractFactory.convert2Text(fileName, outPutFile);
     abstractFactory.convert2Pdf(fileName, outPutFile);
-    abstractFactory.convert2Png(fileName, outPutFile);
+    //abstractFactory.convert2Png(fileName, outPutFile);
   }
 }
